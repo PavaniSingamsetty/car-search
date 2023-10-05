@@ -1,0 +1,68 @@
+/* Container for the entire CarList component */
+.car-list-container {
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Car card container */
+  .car-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Car card title (name) */
+  .car-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Car card details */
+  .car-details {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Pagination container */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Pagination item */
+  .pagination-item {
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Active pagination item */
+  .pagination-item.active {
+    font-weight: bold;
+    color: #333;
+  }
+
+  
